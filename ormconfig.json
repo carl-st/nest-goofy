@@ -1,0 +1,11 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 32781,
+    "username": "root",
+    "password": "carste",
+    "database": "carste",
+    "entities": [
+        "dist/**/*.entity.js"
+    ]
+}
