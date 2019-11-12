@@ -6,8 +6,14 @@ export class User {
   id: number;
 
   @Column()
+  username: string;
+
+  @Column()
   name: string;
 
   @Column()
   surname: string;
+
+  @Column()
+  password: string;
 }

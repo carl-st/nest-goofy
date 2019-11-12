@@ -7,5 +7,6 @@
     "database": "carste",
     "entities": [
         "dist/**/*.entity.js"
-    ]
+    ],
+    "logging": true
 }
