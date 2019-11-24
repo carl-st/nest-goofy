@@ -5,6 +5,9 @@ export class Post {
   @PrimaryGeneratedColumn()
   id: number;
 
+  @Column({ type: "datetime" })
+  date: string;
+
   @Column()
   title: string;
 
@@ -17,6 +20,6 @@ export class Post {
   @Column()
   tileSize: string; 
 
-  @Column()
-  imageUrls: Array<string>;
+  @Column("simple-array")
+  imageUrls: string[];
 }
